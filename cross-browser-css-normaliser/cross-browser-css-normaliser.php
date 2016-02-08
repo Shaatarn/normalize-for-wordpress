@@ -55,7 +55,7 @@ class cbcssNormalise
 	 */
 	public function cbcss_enqueue_style () {
 
-		wp_register_style ('cbcss_normalise', plugin_dir_url (__FILE__) . 'css/normalize.css');
+		wp_register_style ('cbcss_normalise', plugin_dir_url (__FILE__) . 'css/normalize.min.css');
 		wp_enqueue_style ('cbcss_normalise');
 
 	}
